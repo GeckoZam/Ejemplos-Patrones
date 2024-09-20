@@ -2,6 +2,7 @@
 ## Singleton
 ### Escenario del mundo real
 Imagina que tienes un administrador de impresoras en una oficina. Puede haber varias personas que utilicen la impresora, pero la oficina solo tiene un administrador de impresoras que se encarga de todos los trabajos de impresión. El patrón Singleton garantiza que solo exista una instancia del administrador de impresoras, independientemente de cuántas veces la gente intente "crearla" o acceder a ella.
+
 https://dotnetfiddle.net/O1f5KC
 ```c#
 using System;
@@ -194,6 +195,7 @@ En este escenario, la mueblería puede crear:
 - Conjunto de muebles victorianos: sillón victoriano y sofá victoriano
 
 El patrón Abstract Factory nos permitirá crear familias de objetos relacionados (conjuntos de muebles) sin especificar sus clases concretas.
+
 https://dotnetfiddle.net/tepnxf
 ```c#
 using System;
@@ -342,6 +344,7 @@ Una comida vegetariana podría incluir: hamburguesa vegetariana como plato princ
 Una comida no vegetariana podría incluir: hamburguesa de pollo como plato principal, papas fritas como guarnición y refresco como bebida.
 
 El patrón Builder nos ayuda a construir estas diferentes variaciones de comidas paso a paso.
+
 https://dotnetfiddle.net/rSvCRz
 ```c#
 using System;
@@ -650,6 +653,7 @@ En este ejemplo, imagina que tienes un teléfono inteligente moderno que utiliza
 Un teléfono inteligente moderno con un puerto USB-C.
 Un cargador micro-USB antiguo.
 Un adaptador que convierte el puerto micro-USB en USB-C, lo que permite que el cargador antiguo funcione con el nuevo teléfono.
+
 https://dotnetfiddle.net/LUWdXT
 ```c#
 using System;
@@ -746,6 +750,7 @@ En este escenario, un control remoto podría operar varios dispositivos, como un
 - Dispositivos: pueden ser televisores o radios, cada uno con su propia implementación específica para encender/apagar y ajustar el volumen.
 
 El patrón Bridge ayuda a separar la abstracción (el control remoto) de la implementación (los dispositivos) para que puedan variar de forma independiente.
+
 https://dotnetfiddle.net/VzYljG
 ```c#
 using System;
@@ -913,6 +918,7 @@ El patrón Bridge permite que la abstracción (Control remoto) y la implementaci
 - Empleado: puede ser un trabajador individual o un gerente.
 - Gerente: un gerente puede tener subordinados (otros empleados o gerentes).
 - Patrón compuesto: nos permite tratar tanto a los empleados individuales como a los grupos de empleados (gerentes con subordinados) de la misma manera.
+
 https://dotnetfiddle.net/h5oAIY
 ```c#
 using System;
